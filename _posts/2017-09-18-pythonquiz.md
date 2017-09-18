@@ -13,7 +13,7 @@ author: Yamoong
 
 ```python
 result = [x for i in range(1,21)]
-result[1:19:2:reverse]
+result_reversed=list.reverse(result[1:19:2])
 ```
 
 2. today = '우울한 하루'일 때 변수 today를 활기찬 하루 로 만드시오. 단 문자열 내장함수 split과 join 사용하시오
@@ -45,5 +45,5 @@ def myfunc(*args):
 
 
 ```python
-result=['%d x %d = %d' % x,y,x*y for x in range(2,10,2) for y in range(1,10) ]
+result=['%d x %d = %d' % (x,y,x*y) for x in range(2,10,2) for y in range(1,10) ]
 ```
